@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:padding="10dp"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/mName"
+            android:textSize="16dp"
+            android:textStyle="bold"
+            android:text="location_Text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+        </TextView>
+
+        <LinearLayout
+            android:layout_width="379dp"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:padding="10dp">
+
+            <TextView
+                android:id="@+id/status"
+                android:layout_width="198dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:gravity="center"
+                android:text="Visit_Text"
+                android:textColor="@color/teal_700"
+                android:textSize="16dp"
+                android:textStyle="bold"/>
+
+            <ImageView
+                android:id="@+id/delete"
+                android:layout_marginLeft="100dp"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:src="@drawable/ic_baseline_delete_sweep_24"/>
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="EDIT"
+            android:textColor="@color/teal_700"
+            android:textSize="16dp"
+            android:textStyle="bold">
+        </TextView>
+
+    </LinearLayout>
+    <View
+        android:background="@android:color/holo_blue_dark"
+        android:layout_width="match_parent"
+        android:layout_height="1dp">
+    </View>
+</LinearLayout>
